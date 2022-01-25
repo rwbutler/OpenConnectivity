@@ -24,7 +24,8 @@ OpenConnectivity allows [Connectivity](https://github.com/rwbutler/Connectivity)
 - [x] Polling connectivity checks may be performed where a constant network connection is required (optional).
 
 ## Usage
-<script src="https://gist.github.com/rwbutler/0f2502d7487b6e2c3ca76ca791e1200c.js"></script>
+
+For example usage in an iOS app see [this gist](https://gist.github.com/rwbutler/0f2502d7487b6e2c3ca76ca791e1200c).
 
 ## Author
 
