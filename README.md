@@ -1,7 +1,8 @@
 ![OpenConnectivity](https://raw.githubusercontent.com/rwbutler/OpenConnectivity/main/docs/images/openconnectivity-banner.png)
 
-[![License](https://img.shields.io/cocoapods/l/Connectivity.svg?style=flat)](http://cocoapods.org/pods/Connectivity)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Frwbutler%2FConnectivity%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/rwbutler/Connectivity)
+[![License](https://img.shields.io/cocoapods/l/Connectivity.svg?style=flat)](./LICENSE)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Frwbutler%2FOpenConnectivity%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/rwbutler/OpenConnectivity)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Frwbutler%2FOpenConnectivity%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/rwbutler/OpenConnectivity)
 [![Twitter](https://img.shields.io/badge/twitter-@ross_w_butler-blue.svg?style=flat)](https://twitter.com/ross_w_butler)
 
 OpenConnectivity allows Connectivity to be used with OpenCombine such that users can subscribe to changes in Internet connectivity using Publishers on platforms where the Combine framework is unavailable.
