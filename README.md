@@ -5,9 +5,9 @@
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Frwbutler%2FOpenConnectivity%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/rwbutler/OpenConnectivity)
 [![Twitter](https://img.shields.io/badge/twitter-@ross_w_butler-blue.svg?style=flat)](https://twitter.com/ross_w_butler)
 
-OpenConnectivity allows Connectivity to be used with OpenCombine such that users can subscribe to changes in Internet connectivity using Publishers on platforms where the Combine framework is unavailable.
+OpenConnectivity allows [Connectivity](https://github.com/rwbutler/Connectivity) to be used with OpenCombine such that users can subscribe to changes in Internet connectivity using Publishers on platforms where the Combine framework is unavailable.
 
-Connectivity is a framework providing a reliable measure of whether Internet connectivity is available. It provides [Combine Publishers](https://developer.apple.com/documentation/combine/publisher) which allow the subscriber to be notified on changes in Internet connectivity state. Apple's [Combine](https://developer.apple.com/documentation/combine) however is unavailable on some platforms notably prior to iOS 13 in which case [OpenCombine](https://github.com/OpenCombine/OpenCombine) exists to fill the gap. This package allows you to subscribe to changes in Internet connectivity on platforms where Combine is unavailable by substituting Combine for OpenCombine.
+[Connectivity](https://github.com/rwbutler/Connectivity) is a framework providing a reliable measure of whether Internet connectivity is available. It provides [Combine Publishers](https://developer.apple.com/documentation/combine/publisher) which allow the subscriber to be notified on changes in Internet connectivity state. Apple's [Combine](https://developer.apple.com/documentation/combine) however is unavailable on some platforms notably prior to iOS 13 in which case [OpenCombine](https://github.com/OpenCombine/OpenCombine) exists to fill the gap. This package allows you to subscribe to changes in Internet connectivity on platforms where Combine is unavailable by substituting Combine for OpenCombine.
 
 - [Features](#features)
 - [Author](#author)
