@@ -10,6 +10,7 @@ OpenConnectivity allows [Connectivity](https://github.com/rwbutler/Connectivity)
 [Connectivity](https://github.com/rwbutler/Connectivity) is a framework providing a reliable measure of whether Internet connectivity is available. It provides [Combine Publishers](https://developer.apple.com/documentation/combine/publisher) which allow the subscriber to be notified on changes in Internet connectivity state. Apple's [Combine](https://developer.apple.com/documentation/combine) however is unavailable on some platforms notably prior to iOS 13 in which case [OpenCombine](https://github.com/OpenCombine/OpenCombine) exists to fill the gap. This package allows you to subscribe to changes in Internet connectivity on platforms where Combine is unavailable by substituting Combine for OpenCombine.
 
 - [Features](#features)
+- [Usage](#usage)
 - [Author](#author)
 - [License](#license)
 - [Additional Software](#additional-software)
