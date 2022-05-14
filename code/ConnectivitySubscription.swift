@@ -12,10 +12,11 @@ import Foundation
 import OpenCombine
 
 class ConnectivitySubscription<S: Subscriber>: Subscription where S.Input == Connectivity, S.Failure == Never {
-    private let connectivity = Connectivity()
+    private let connectivity: Connectivity
     private var subscriber: S?
 
-    init(subscriber: S) {
+    init(configuration: ConnectivityConfiguration, subscriber: S) {
+        connectivity = Connectivity(configuration: configuration)
         self.subscriber = subscriber
         startNotifier(with: subscriber)
     }
