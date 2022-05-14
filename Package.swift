@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/rwbutler/Connectivity",
-            from: "5.0.0"
+            from: "5.2.0"
         )
     ],
     targets: [
